@@ -28,7 +28,7 @@ digiterms.register_monitor("digibanner:large_street_sign",{
     fixed = {-(64/16)/2, -(12/16)/2, 0.5,
       (64/16)/2, (12/16)/2, 0.5 - (1/16)},
   },
-  groups = {choppy=2, dig_immediate=2, not_blocking_trains=1, display_api=1, digiline_receiver = 1,},
+  groups = {choppy=2, dig_immediate=2, not_blocking_trains=1, display_api=1},
   sounds = default.node_sound_defaults(),
   display_entities = {
     ["digiterms:screen"] = {
