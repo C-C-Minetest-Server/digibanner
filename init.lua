@@ -45,3 +45,12 @@ digiterms.register_monitor("digibanner:large_street_sign",{
     "signs_road_sides.png", "signs_road_large_white.png" },
   inventory_image = "signs_road_white.png",
 })
+
+minetest.register_craft({
+  output = "digibanner:large_street_sign",
+  type = "shapeless",
+  recipe = {
+    "signs_road:large_street_sign",
+    "digilines:wire_std_00000000",
+  },
+})
